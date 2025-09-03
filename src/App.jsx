@@ -9,7 +9,7 @@ import Assign from './components/assign/assign';
 
 function App() {
   return (
-    <Router basename="/ucms_f/">
+    <Router>
       <Routes>
         <Route path="/" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
